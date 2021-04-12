@@ -187,8 +187,7 @@ int main()
 
 根据国际标准IEEE 754，任意一个二进制浮点数V可以表示成下面的形式：
 
-![img](https:////upload-images.jianshu.io/upload_images/3229842-dc513ebfe7b96346.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/295/format/webp)
-
+![3229842-dc513ebfe7b96346](https://github.com/swifteen/double_precision/blob/main/images/3229842-dc513ebfe7b96346.png?raw=true)
 （1）(-1)^s表示符号位，当s=0，V为正数；当s=1，V为负数。 
 （2）M表示有效数字，大于等于1，小于2。 
 （3）2^E表示指数位。
