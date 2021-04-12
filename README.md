@@ -260,7 +260,7 @@ $7 = 878799
 
 由下图可知，编译时添加-g选项后，并不影响真正有用的汇编代码，也不影响寄存器的使用，只是插入了一些辅助的指令而已
 
-![image-20210405235244490](.\images\image-20210405235244490.png)
+![image-20210405235244490](https://github.com/swifteen/double_precision/blob/main/images/image-20210405235244490.png)
 
 #### gdb打印所有寄存器中的值
 
@@ -571,7 +571,7 @@ s15            10.676177           (raw 0x412ad19f)
 
 其中高32位为0x412ad19f，低32位为0xffffffff，见下图分解
 
-![image-20210412223825458](.\images\image-20210412223825458.png)
+![image-20210412223825458](https://github.com/swifteen/double_precision/blob/main/images/image-20210412223825458.png)
 
 ##### 8.将d7双精度浮点寄存器中的低32位的值保存到r0中，将d7双精度浮点寄存器中的高32位的值保存到r1中
 
@@ -813,31 +813,31 @@ The column labeled “Restore Contents?” shows whether the function needs to e
 
 ### BL
 
-![image-20210406230606785](.\images\image-20210406230606785.png)
+![image-20210406230606785](https://github.com/swifteen/double_precision/blob/main/images/image-20210406230606785.png)
 
 ### LDR
 
-![image-20210406230652114](.\images\image-20210406230652114.png)
+![image-20210406230652114](https://github.com/swifteen/double_precision/blob/main/images/image-20210406230652114.png)
 
 ### STR
 
-![image-20210406230723619](.\images\image-20210406230723619.png)
+![image-20210406230723619](https://github.com/swifteen/double_precision/blob/main/images/image-20210406230723619.png)
 
 ### LSL、LSR
 
-![image-20210406230817687](.\images\image-20210406230817687.png)
+![image-20210406230817687](https://github.com/swifteen/double_precision/blob/main/images/image-20210406230817687.png)
 
 ### VMOV
 
-![image-20210404233915113](.\images\image-20210404233915113.png)
+![image-20210404233915113](https://github.com/swifteen/double_precision/blob/main/images/image-20210404233915113.png)
 
 ### VCVT
 
-![image-20210404235040384](.\images\image-20210404235040384.png)
+![image-20210404235040384](https://github.com/swifteen/double_precision/blob/main/images/image-20210404235040384.png)
 
 ### VLDR
 
-![image-20210404235559606](.\images\image-20210404235559606.png)
+![image-20210404235559606](https://github.com/swifteen/double_precision/blob/main/images/image-20210404235559606.png)
 
 参考https://www.codenong.com/cs106577545/
 
