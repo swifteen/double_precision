@@ -708,6 +708,7 @@ s15            1.23145969e-39      (raw 0x000d68cf)
 
 - 使用二进制表达十进制的小数时，某些数字无法被有限位的二进制小数表示；
 - 单精度和双精度的浮点数只包括 7 位或者 15 位的有效小数位，存储需要无限位表示的小数时只能存储近似值；
+- 当比较float时Epsilon设置为1e-6，当比较double时Epsilon设置为1e-14
 
 # 三、参考知识
 
@@ -843,7 +844,10 @@ The column labeled “Restore Contents?” shows whether the function needs to e
 https://bob.cs.sonoma.edu/IntroCompOrg-RPi/sec-instrs-1.html#instr-ldr
 
 # 四、参考链接
-
+##
+https://stackoverflow.com/questions/17333/what-is-the-most-effective-way-for-float-and-double-comparison?noredirect=1&lq=1
+https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/
+https://www.learncpp.com/cpp-tutorial/floating-point-numbers/
 ## 浮点数转换
 
 https://blog.csdn.net/weixin_43955216/article/details/107385732?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242
